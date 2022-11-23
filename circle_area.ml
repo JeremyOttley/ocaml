@@ -6,4 +6,4 @@ type area = float
 type radius = float
 
 let circle_area (radius: radius): area =
-	Float.pi *. (Float.sqrt radius)
+	Float.pi *. (radius *. radius)
