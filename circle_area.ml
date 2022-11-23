@@ -5,5 +5,6 @@ the area of the circle *)
 type area = float
 type radius = float
 
+(* val circle_area : radius -> area = <fun> *)
 let circle_area (radius: radius): area =
 	Float.pi *. (radius *. radius)
