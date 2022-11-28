@@ -1,6 +1,9 @@
-let bigOrSmall s = match s with
-| s when smallWord(s) -> "Big!"
-| s when not (smallWord(s)) -> "Small..."
-| _ -> "Error"
+let small_word (s: string): bool =
+  (String.length name) >= 4
 
-(* bigOrSmall "Jeremy" *)
+let big_or_small (s: string) = match s with
+  | s when smallWord(s) -> "Big!"
+  | s when not (smallWord(s)) -> "Small..."
+  | _ -> "Error"
+
+
