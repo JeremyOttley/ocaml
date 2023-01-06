@@ -12,7 +12,7 @@ let imageList =
   |> Array.to_list
   |> List.filter (fun x -> isImage x)
 
-let regx = Str.regexp "upscayl_4x_realesrgan-x4plus"
+let regx = Str.regexp {|"upscayl_4x_realesrgan-x4plus"|}
 Str.global_replace regx "" "Screenshot_20220930_221244_upscayl_4x_realesrgan-x4plus.png"
 
 imageList |> List.
